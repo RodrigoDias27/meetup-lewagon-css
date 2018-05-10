@@ -1,50 +1,50 @@
 /* style.css */
-body {
-  background: rgb(245,245,245);
-  color: green;
-  font-size: 30px;
-  font-family: Helvetica;
-}
-
-h1 {
-  font-family: Courier;
-  color: red;
-  font-weight: lighter;
-  font-size: 20px;
-}
-
-h2 {
-  font-family: Courier;
-  color: pink;
-  font-weight: lighter;
-  font-size: 8px;
-}
-
-a {
-  color: orange;
-}
-
-a:hover {
-  text-decoration: none;
-  color: purple;
-}
 
 #banner {
   text-align: center;
   background-image: url("https://unsplash.it/1300/600?random");
   background-size: cover; /* Image will be resized to cover, without this image will repeat some part */ 
-  padding: 150px;
+  padding: 30px;
   color: white;
   text-shadow: 1px 1px 5px black;
 }
 
 #banner h1 {
   color: white;
-  font-size: 50px;
+  font-size: 4vw;
 }
 #banner p {
   color: white;
   opacity: 0.8;
-  font-size: 30px;
+  font-size: 3vw;
   font-weight: lighter;
+}
+
+#footer{
+  padding: 2vw;
+  background: rgb(30, 30, 30);
+  color: lightgrey;
+}
+
+.card{
+  size: 200px;
+  padding: 50px;
+  font-weight: lighter;
+  border: none;
+}
+
+.card h2 {
+	font-size: 2vw;
+}
+
+.card p {
+	font-size: 1vw;
+}
+
+#footer a {
+  color: lightgrey;
+  font-size: 15px;
+}
+#footer a:hover {
+  color: white;
 }
