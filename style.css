@@ -26,15 +26,15 @@
   color: lightgrey;
 }
 
-.card{
-  size: 200px;
+.card {
+  size: 400px;
   padding: 50px;
   font-weight: lighter;
   border: none;
 }
 
 .card h2 {
-	font-size: 2vw;
+	font-size: 1.75vw;
 }
 
 .card p {
